@@ -33,7 +33,7 @@ public class EmailRestController {
     }
 
     @GetMapping()
-    public Email getMailsById(){
+    public Email getMailWithId(){
         return this.service.getAllMails();
     }
 }
