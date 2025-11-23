@@ -31,4 +31,9 @@ public class EmailRestController {
 
         return true;
     }
+
+    @GetMapping()
+    public List<Email> getAllMail(){
+        return this.service.getAllMails();
+    }
 }
