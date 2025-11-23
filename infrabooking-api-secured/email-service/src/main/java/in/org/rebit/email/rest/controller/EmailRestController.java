@@ -33,7 +33,7 @@ public class EmailRestController {
     }
 
     @GetMapping()
-    public Email getmailOnly{
+    public Email fechMail{
         return this.service.getAllMails();
     }
 }
